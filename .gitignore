@@ -1,0 +1,8 @@
+dist
+unchaindjango.egg-info
+build
+*.pyc
+*.egg
+.tox
+.coverage
+htmlcov
