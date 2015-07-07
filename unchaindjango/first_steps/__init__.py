@@ -3,10 +3,12 @@ import sys
 
 from story.adventures import BaseAdventure
 
+from ..data import _
+
 
 class Adventure(BaseAdventure):
 
-    title = 'First Steps2'
+    title = _('First Steps')
 
     def test(self, file):
         import django
